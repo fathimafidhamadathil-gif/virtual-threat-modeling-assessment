@@ -1,0 +1,7 @@
+ID,Illustrative finding,Asset,STRIDE category,Likelihood (1-5),Impact (1-5),Risk score,Priority,Recommended treatment,Status
+R1,Multi-factor authentication not confirmed,User/admin accounts,Spoofing,4,4,16,High,Enable MFA and review account recovery,Example only - validate
+R2,Excessive database permissions possible,Database,Elevation of privilege / Information disclosure,3,5,15,High,Apply least privilege and separate service accounts,Example only - validate
+R3,Audit logging coverage not confirmed,Application and server,Repudiation,3,3,9,Medium,Enable and review protected centralized logs,Example only - validate
+R4,Rate limiting not confirmed,Web application,Denial of service,3,4,12,High,Apply rate limits and monitor unusual traffic,Example only - validate
+R5,Transport and configuration settings not verified,Data in transit,Information disclosure,2,5,10,High,Verify HTTPS/TLS and secure configuration,Example only - validate
+R6,Input validation controls not verified,Web application,Tampering,3,4,12,High,Validate inputs server-side and test safely in authorized lab,Example only - validate
